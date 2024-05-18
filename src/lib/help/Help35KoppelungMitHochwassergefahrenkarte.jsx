@@ -17,7 +17,7 @@ const Component = () => {
             Sobald die Starkregengefahrenkarte und die{" "}
             <a
               target="_legal"
-              href="https://topicmaps-wuppertal.github.io/starkregen/#/hoehen?lat=51.271680556266894&lng=7.199681997299195&zoom=18"
+              href="https://digital-twin-wuppertal-live.github.io/floodingmap/#?lat=51.271680556266894&lng=7.199681997299195&zoom=18"
             >
               Hochwassergefahrenkarte
             </a>{" "}
