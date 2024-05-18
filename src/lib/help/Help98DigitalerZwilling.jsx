@@ -30,7 +30,7 @@ const Component = ({ email }) => {
               </a>. Sie stellt einen themenspezifischen Ausschnitt aus den Daten und 
               Methoden des DigiTal Zwillings für den ebenfalls spezifischen Anwendungsfall 
               "Starkregen-Gefährdungsbeurteilung" bereit. Im Konzept des DigiTal Zwillings implementiert die 
-              Hochwassergefahrenkarte einen {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b>{" "}  
+              Starkregengefahrenkarte einen {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b>{" "}  
               zuzuordnen ist. 
             </div>            
           </p>
