@@ -14,12 +14,12 @@ const Component = () => {
       sectionContent={
         <div>
           <p>
-            Sobald die Hochwassergefahrenkarte und die{" "}
+            Sobald die Starkregengefahrenkarte und die{" "}
             <a
               target="_legal"
-              href="https://topicmaps-wuppertal.github.io/starkregen/#/hoehen?lat=51.271680556266894&lng=7.199681997299195&zoom=18"
+              href="https://digital-twin-wuppertal-live.github.io/floodingmap/#?lat=51.271680556266894&lng=7.199681997299195&zoom=18"
             >
-              Starkregengefahrenkarte
+              Hochwassergefahrenkarte
             </a>{" "}
             auf einem Endgerät in zwei Fenstern desselben Browsers gestartet
             werden, sind sie standardmäßig miteinander gekoppelt. Änderungen des
@@ -42,7 +42,7 @@ const Component = () => {
             Browserfenster beschränkt. Sie können beliebig viele weitere
             Anwendungsfenster öffnen, die alle standardmäßig synchronisiert
             werden. Damit können Sie z. B. auch unterschiedliche
-            Hochwasser-Szenarien aus der Hochwassergefahrenkarte gut miteinander
+            Szenarien aus der Starkregengefahrenkarte gut miteinander
             vergleichen.
           </p>
           <p>

@@ -11,7 +11,7 @@ const Component = ({ defaultContextValues = {}, email }) => {
   let _email =
     email ||
     customizations?.helpmenu?.modellfehlermelden?.email ||
-    "starkregen@cismet.de";
+    "starkregen@stadt.wuppertal.de";
   return (
     <GenericModalMenuSection
       sectionKey="modellfehlermelden"

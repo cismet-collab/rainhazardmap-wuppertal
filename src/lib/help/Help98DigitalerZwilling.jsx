@@ -23,14 +23,14 @@ const Component = ({ email }) => {
               src={Logo_DigiTalZwilling}
             />
             <div>
-              Die Hochwassergefahrenkarte basiert auf dem <b>DigiTal Zwilling</b>, 
+              Die Starkregengefahrenkarte basiert auf dem <b>DigiTal Zwilling</b>, 
               dem{" "}  
               <a href="https://smart.wuppertal.de/projekte/digital-zwilling/digitaler-zwilling.php" title={""}>
                 Urbanen Digitalen Zwilling der Stadt Wuppertal
               </a>. Sie stellt einen themenspezifischen Ausschnitt aus den Daten und 
               Methoden des DigiTal Zwillings für den ebenfalls spezifischen Anwendungsfall 
-              "Hochwasser-Gefährdungsbeurteilung" bereit. Im Konzept des DigiTal Zwillings implementiert die 
-              Hochwassergefahrenkarte einen {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b>{" "}  
+              "Starkregen-Gefährdungsbeurteilung" bereit. Im Konzept des DigiTal Zwillings implementiert die 
+              Starkregengefahrenkarte einen {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b>{" "}  
               zuzuordnen ist. 
             </div>            
           </p>
@@ -75,10 +75,10 @@ const Component = ({ email }) => {
             </tbody>
           </table>
           <p>
-            Fachspezifische Fragen, Hinweise und Anregungen zur Hochwassergefahrenkarte 
+            Fachspezifische Fragen, Hinweise und Anregungen zur Starkgefahrenkarte 
             richten Sie bitte an die E-Mail-Adresse {" "} 
             <a href="mailto:starkregen@stadt.wuppertal.de">starkregen@stadt.wuppertal.de</a> {" "} 
-            mit dem Betreff <b>Hochwassergefahrenkarte Wuppertal</b>. 
+            mit dem Betreff <b>Starkregengefahrenkarte Wuppertal</b>. 
           </p>
         </div>
       }
