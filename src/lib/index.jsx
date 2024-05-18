@@ -51,7 +51,7 @@ const getCollabedHelpComponentConfig = ({
         version={version}
         versionString={versionString}
         reactCismapRHMVersion={reactCismapRHMVersion}
-        hintergrundkartenText="True Orthophoto 2022, Amtliche Basiskarte (ABK), Hillshade © Stadt Wuppertal | Stadtkarte 2.0 © RVR | WebAtlasDE © BKG "
+        hintergrundkartenText="True Orthophoto 2022, Amtliche Basiskarte (ABK), Hillshade © Stadt Wuppertal | Stadtkarte 2.0 © RVR | basemap.de web Vektor © GeoBasis-DE / BKG"
         logo={
           <a
             className="renderAsLink"
