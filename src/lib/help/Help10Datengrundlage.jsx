@@ -98,33 +98,47 @@ const Component = () => {
           </p>
 
           <ul>
-            <li>
-              <strong>Topographische Karte</strong>: (1) Kartendienste (WMS) der
-              Stadt Wuppertal. Datengrundlagen: (a){" "}
-              <strong>Amtliche Basiskarte ABK Graustufen</strong>.(Wöchentlich
-              in einem automatisierten Prozess aus dem Fachverfahren ALKIS des
-              Liegenschaftskatasters abgeleitete großmaßstäbige topographische
-              Karte in Graustufen.) © Stadt Wuppertal (
-              <a target="_more" href="https://www.govdata.de/dl-de/zero-2-0">
-                Datenlizenz Deutschland - Zero - Version 2.0
-              </a>
-              ). (b) <strong>Hillshade</strong> (Schummerungsdarstellung eines
-              für hydrologische Fragestellungen optimierten Digitalen
-              Geländemodells aus Laserscanner-Befliegungen (12/2008 und 01/2009)
-              mit ergänztem Gebäudebestand (Auflösung 25cm x 25cm), ausgeführt
-              in 2012 vom Ingenieurbüro Reinhard Beck GmbH &amp; Co. KG /
-              Wuppertal.) © Wuppertaler Stadtwerke WSW Energie &amp; Wasser AG.
-              (2) Kartendienst (WMS) des Bundesamtes für Kartographie und
-              Geodäsie (BKG). Datengrundlage:{" "}
-              <strong>
-                <a
-                  target="_more"
-                  href="http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&amp;gdz_akt_zeile=4&amp;gdz_anz_zeile=4&amp;gdz_unt_zeile=0&amp;gdz_user_id=0#dok"
-                >
-                  WebAtlasDE
-                </a>
-              </strong>{" "}
-              © GeoBasis-DE / BKG 2018
+          <li>
+              <strong>Topographische Karte</strong>: (1) Kartendienste (WMS) der 
+              Stadt Wuppertal. Datengrundlagen: (a) <b>Amtliche Basiskarte ABK 
+              Graustufen</b>. (Wöchentlich in einem automatisierten Prozess aus dem 
+              Fachverfahren ALKIS des Liegenschaftskatasters abgeleitete 
+              großmaßstäbige topographische Karte in Graustufen.) © Stadt Wuppertal 
+              (<a
+                target="_legal"
+                href="https://www.govdata.de/dl-de/zero-2-0"
+              >
+                Datenlizenz Deutschland - Zero - Version 2.0)
+              </a>.{" "}
+              (b) <b>Hillshade</b> (Schummerungsdarstellung eines für hydrologische 
+              Fragestellungen optimierten Digitalen Geländemodells aus 
+              Laserscanner-Befliegungen (12/2008 und 01/2009) mit ergänztem 
+              Gebäudebestand (Auflösung 25 cm x 25 cm), ausgeführt in 2012 vom 
+              Ingenieurbüro Reinhard Beck GmbH & Co. KG / Wuppertal.) © Wuppertaler 
+              Stadtwerke WSW Energie & Wasser AG. (2) Kartendienst (WMS) des 
+              Regionalverbandes Ruhr (RVR). Datengrundlage: <b>Stadtkarte 2.0</b>{" "} 
+              ohne Kartenschrift. (Details s. Hintergrundkarte Stadtplan.) 
+              (3) Kartendienst (WMS) des Bundesamtes für 
+              Kartographie und Geodäsie (
+              <a
+                target="_blank"
+                href="https://www.bkg.bund.de/"
+              >
+                BKG
+              </a>). Datengrundlage: <b>basemap.de Web 
+              Vektor</b> © GeoBasis-DE /{" "} 
+              <a
+                target="_blank"
+                href="https://www.bkg.bund.de/"
+              >
+                BKG
+              </a>{" "} (2024){" "}  
+              <a
+                target="_blank"
+                href="https://creativecommons.org/licenses/by/4.0/"
+              >
+                CC BY 4.0
+              </a>.
             </li>
 
             <LicenseLBK />
