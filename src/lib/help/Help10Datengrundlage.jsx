@@ -56,15 +56,27 @@ const Component = () => {
             zufließende Regenwasser modelliert. Es kann in den Simulationen nun
             also nicht mehr zu einem Rückstau kommen, bei dem das Regenwasser
             Flächen in der Talsohle überflutet, weil es von der Wupper nicht
-            mehr abgeleitet werden kann. Die Überflutungen, die durch hohe
-            Pegelstände entlang der Wupper und einiger wichtiger Zuflüsse der
-            Wupper entstehen können, werden in den Hochwassergefahrenkarten des
-            Landes NRW dargestellt. Die Stadt Wuppertal wird den hieraus für
-            Wuppertal relevanten Ausschnitt in einer interaktiven
-            "Hochwassergefahrenkarte Wuppertal" nach dem Vorbild der
-            Starkregengefahrenkarte bereitstellen und beide Kartenanwendungen so
-            miteinander koppeln, dass man die Gefahr durch beide Szenarien -
-            Starkregen und Flusshochwasser - gut beurteilen kann.{" "}
+            mehr abgeleitet werden kann. Die Überflutungen, die durch hohe 
+            Pegelstände entlang der Wupper und einiger wichtiger Zuflüsse der 
+            Wupper entstehen können, werden in den Hochwassersimulationen des 
+            Landes NRW betrachtet. Die Stadt Wuppertal stellt den hieraus für 
+            Wuppertal relevanten Ausschnitt seit Mai 2024 in der interaktiven{" "}
+            <a
+                target="_legal"
+                href="https://digital-twin-wuppertal-live.github.io/floodingmap/#?lat=51.271680556266894&lng=7.199681997299195&zoom=18"
+              >
+                Hochwassergefahrenkarte Wuppertal
+            </a>{" "} 
+            bereit, die weitgehend wie die 
+            Starkregengefahrenkarte zu bedienen ist. Die beiden Karten lassen 
+            sich so miteinander{" "} 
+            <a
+              className="renderAsLink"
+              onClick={() => setAppMenuActiveMenuSection("koppelung")}
+            >
+              koppeln
+            </a>,{" "}dass man die Gefahr durch beide 
+            Szenarien - Starkregen und Flusshochwasser - gut beurteilen kann.{" "}
             <strong>
               Bei kleineren Gewässern wie dem Mirker Bach wird die Überlagerung
               der Überflutungen durch ablaufendes Regenwasser und über die Ufer
@@ -72,7 +84,7 @@ const Component = () => {
               der Wupper, einem Gewässer mit einem großen hydrologischen
               Einzugsgebiet überwiegend außerhalb des Wuppertaler Stadtgebietes,
               ist das nicht gegeben. Die Gefahr einer Überflutung durch die über
-              die Ufer tretende Wupper sollte daher nur anhand einer
+              die Ufer tretende Wupper sollte daher nur anhand der
               Hochwassergefahrenkarte beurteilt werden.
             </strong>{" "}
             Weitere Verbesserungen in Version 2.1 der Simulationsberechnungen
