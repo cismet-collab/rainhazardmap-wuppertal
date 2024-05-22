@@ -7,7 +7,7 @@ import { getLibDescribe, getLibVersion, isDirty } from "./version";
 function App() {
   const version = "aaaa";
   const footerLogoUrl = undefined;
-  const email = "starkregen@cismet.de";
+  const email = "starkregen@wuppertal.de";
   const { setAppMenuVisible } = useContext(UIDispatchContext);
   useEffect(() => {
     setAppMenuVisible(true);
