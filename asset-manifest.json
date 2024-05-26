@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.3cedc62d.css",
-    "main.js": "./static/js/main.4a0065f5.js",
+    "main.js": "./static/js/main.84b07c67.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "./static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/markers_default@2x.png": "./static/media/markers_default@2x.9593b3c72f31a3f4b403.png",
     "static/media/Logo_DigiTalZwilling.png": "./static/media/Logo_DigiTalZwilling.adb8e89fbaa01801230c.png",
@@ -17,10 +17,10 @@
     "index.html": "./index.html",
     "static/media/location-arrow-solid.svg": "./static/media/location-arrow-solid.0b7c9a27de87a0ec7420.svg",
     "main.3cedc62d.css.map": "./static/css/main.3cedc62d.css.map",
-    "main.4a0065f5.js.map": "./static/js/main.4a0065f5.js.map"
+    "main.84b07c67.js.map": "./static/js/main.84b07c67.js.map"
   },
   "entrypoints": [
     "static/css/main.3cedc62d.css",
-    "static/js/main.4a0065f5.js"
+    "static/js/main.84b07c67.js"
   ]
 }
