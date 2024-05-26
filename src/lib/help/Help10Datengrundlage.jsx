@@ -100,7 +100,15 @@ const Component = () => {
               simulierte Szenarien
             </a>{" "}
             an, drei "Modellregen" sowie das anhand der Niederschlagsmessungen
-            desselben Tages nachgestellte Starkregenereignis vom 29.05.2018.{" "}
+            desselben Tages nachgestellte Starkregenereignis vom 29.05.2018. 
+            Die maximalen Wassertiefen und Fließgeschwindigkeiten zu allen vier
+            Szenarien publizieren wir auch auf dem Wuppertaler{" "}
+            <a
+                target="_legal"
+                href="https://offenedaten-wuppertal.de/search?query=starkregen"
+              >
+                Open-Data-Portal
+            </a>.{" "} 
           </p>
 
           <p>
