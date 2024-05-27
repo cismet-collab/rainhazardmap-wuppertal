@@ -27,32 +27,37 @@ jobs:
         run: |
           git config --global user.email "902348742+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub Actions"
-      - name: Change release version
-        run: npm version ${{ env.RELEASE_TYPE }}
-        env:
-          RELEASE_TYPE: ${{ github.event.inputs.release-type }}
       - name: Install Packages
         run: yarn install
       - name: Build the package
         run: yarn build:package
-      - name: .npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISHING_TOKEN }}" > dist/.npmrc
-      - name: Publish the package
-        run: cd dist && npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Push changes to dev branch
-        run: |
-          git push origin dev
-          git push --tags
       - name: Checkout main branch and merge dev
         run: |
           git fetch --all
           git checkout main
-          git merge dev --no-ff --allow-unrelated-histories --strategy-option=theirs -m "Merge dev to main with new release version"
-          git push --force origin main
-      - name: Push changes to main branch
-        run: git push origin main
+          git merge origin/dev --no-ff --allow-unrelated-histories --strategy-option=theirs
+      - name: Change release version and create tag
+        run: npm version ${{ env.RELEASE_TYPE }}
+        env:
+          RELEASE_TYPE: ${{ github.event.inputs.release-type }}
+      - name: Push changes to main branch with tags
+        run: |
+          git push origin main
+          git push origin --tags
+      - name: Merge main back to dev
+        run: |
+          git checkout dev
+          git merge main --no-ff --strategy-option=theirs --allow-unrelated-histories -m "Merge main back to dev with new release version"
+      - name: Push changes to dev branch
+        run: git push origin dev
+      - name: .npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISHING_TOKEN }}" > dist/.npmrc
+      - name: Build the package to have the proper version
+        run: yarn build:package
+      - name: Publish the package
+        run: cd dist && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # Additional steps for deployment and build process
       # copied from gh-pages
       - name: prepare 0
