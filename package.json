@@ -2,7 +2,7 @@
   "name": "@cismet-collab/rainhazardmap-wupp-texts",
   "description": "text library for wuppertal rainhazardmap help components",
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": ".",
   "main": "index.js",
   "module": "index.js",
