@@ -105,7 +105,7 @@ const Component = () => {
             Szenarien publizieren wir auch auf dem Wuppertaler{" "}
             <a
                 target="_legal"
-                href="https://offenedaten-wuppertal.de/search?query=starkregen"
+                href="https://offenedaten-wuppertal.de/search?query=starkregensimulation"
               >
                 Open-Data-Portal
             </a>.{" "} 
