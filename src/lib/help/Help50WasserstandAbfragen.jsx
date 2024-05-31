@@ -17,8 +17,13 @@ const Component = () => {
           <p>
             Durch Anklicken der Schaltfläche <Icon name="crosshairs" /> oberhalb
             des Kontrollfelds aktivieren Sie ein Werkzeug zur zellbezogenen
-            Abfrage von simulierten Wassertiefen bzw. Fließgeschwindigkeiten. Im
-            Modus &quot;Maximalwerte&quot; können Sie hierüber je nach
+            Abfrage von simulierten Wassertiefen bzw. Fließgeschwindigkeiten. 
+            Falls erforderlich wird ein großer Maßstab (Zoomstufe 19) eingestellt, 
+            damit Sie eine Rasterzelle exakt identifizieren und auswählen können. 
+            Dieser Zoom erfolgt auch, wenn Sie sich bereits im Abfragemodus 
+            befinden, dort einen kleineren Maßstab als Zoomstufe 19 eingestellt 
+            haben und in diesem Zustand auf eine Rasterzelle klicken. Im
+            Modus &quot;Maximalwerte&quot; können Sie je nach
             eingestellter Kartenansicht die maximale Wassertiefe bzw. die
             maximale Fließgeschwindigkeit abfragen, die in einer Rasterzelle im
             Verlauf der aktuell ausgewählten Simulation entsteht. Im Modus
