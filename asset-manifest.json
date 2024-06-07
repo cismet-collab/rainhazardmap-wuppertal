@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.3cedc62d.css",
-    "main.js": "./static/js/main.a5e939d6.js",
+    "main.js": "./static/js/main.d216929d.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "./static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/markers_default@2x.png": "./static/media/markers_default@2x.9593b3c72f31a3f4b403.png",
-    "static/media/Logo_DigiTalZwilling.png": "./static/media/Logo_DigiTalZwilling.adb8e89fbaa01801230c.png",
     "static/media/fontawesome-webfont.eot": "./static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "./static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/markers_default.png": "./static/media/markers_default.c832adf43b69321540d3.png",
+    "static/media/Logo_DigiTalZwilling.png": "./static/media/Logo_DigiTalZwilling.2b5d14f4d8b9835ccc70.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "./static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "./static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/BMWSB_Logo.png": "./static/media/BMWSB_Logo.eb4870e1c4b69aed2dfe.png",
@@ -17,10 +17,10 @@
     "index.html": "./index.html",
     "static/media/location-arrow-solid.svg": "./static/media/location-arrow-solid.0b7c9a27de87a0ec7420.svg",
     "main.3cedc62d.css.map": "./static/css/main.3cedc62d.css.map",
-    "main.a5e939d6.js.map": "./static/js/main.a5e939d6.js.map"
+    "main.d216929d.js.map": "./static/js/main.d216929d.js.map"
   },
   "entrypoints": [
     "static/css/main.3cedc62d.css",
-    "static/js/main.a5e939d6.js"
+    "static/js/main.d216929d.js"
   ]
 }
